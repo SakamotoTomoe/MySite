@@ -8,21 +8,26 @@ header {
   background-color: #EC715F
 }
 
-h1 {
+.heading {
+  width: 1024px;
+  height: 70px;
   display: flex;
+  justify-content: center;
 }
 
 header img {
   height: 70px
 }
 
-nav {
-  margin-left: 
+nav ul {
+  width: auto;
+  height: 70px;
 }
 
 nav ul li {
   list-style: none;
   display: inline-block;
+  height: 70px;
   padding: 30px;
   font-size: 16px;
   color: #FAFAFA;
