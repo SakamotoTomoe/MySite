@@ -5,17 +5,23 @@
 }
 
 header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   background-color: #EC715F
+  
 }
 
 .heading {
   width: 1024px;
   height: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: flex;
 }
 
 header img {
+  margin-right: auto;
   height: 70px
 }
 
