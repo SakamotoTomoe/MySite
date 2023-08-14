@@ -20,9 +20,16 @@ header {
   justify-content: flex;
 }
 
-header img {
+a {
   margin-right: auto;
+}
+
+header img {
   height: 70px
+}
+
+nav {
+  margin-left: auto;
 }
 
 nav ul {
