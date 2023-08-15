@@ -70,3 +70,39 @@ p.main-visual-text {
   color: #FAFAFA;
   font-size: 20px;
 }
+
+.portfolio{
+  width: 100%;
+  background-color: #ECEFF1;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-content {
+  width: 920px;
+  justify-content: center;
+}
+
+p.portfolio-name {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  margin: 90px 0 8px 0;
+}
+
+.portfolio-border {
+  height: 3px;
+  width: 70px;
+  background-color: #EC715F;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.portfolio-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
