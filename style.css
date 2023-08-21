@@ -81,6 +81,7 @@ p.main-visual-text {
 .portfolio-content {
   width: 920px;
   justify-content: center;
+  margin-bottom: 90px;
 }
 
 p.portfolio-name {
@@ -105,4 +106,25 @@ p.portfolio-text {
   color: #000000;
   text-align: center;
   margin: 30px 0 30px 0;
+}
+
+.portfolio-img {
+  height: 250px;
+  width: 300px;
+}
+
+.feature {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-content {
+  width: 980px;
+  margin-top: 90px;
+}
+
+p.feature-name {
+  font-size: 32px;
+  color: #000000;
 }
