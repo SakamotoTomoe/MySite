@@ -114,17 +114,26 @@ p.portfolio-text {
 }
 
 .feature {
-  width: 100px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .feature-content {
   width: 980px;
+  justify-content: center;
   margin-top: 90px;
 }
 
 p.feature-name {
   font-size: 32px;
   color: #000000;
+  text-align: center;
+}
+
+p.feature-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin: 30px 0 30px 0;
 }
