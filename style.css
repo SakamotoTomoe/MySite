@@ -297,3 +297,52 @@ footer p {
   color: #FAFAFA;
   line-height: 60px;
 }
+
+@media screen and (max-width: 425px) {
+  header {
+  }
+
+  .heading {
+    width: 90%;
+  }
+
+  .main-visual {
+  }
+
+  .main-visual-content {
+  }
+
+  .portfolio {
+  }
+
+  .portfolio-content {
+    width: 90%;
+    display: inline-block;
+  }
+  
+  .portfolio-content img {
+    margin: auto;
+    display: block;
+  }
+
+  .feature {
+  }
+  
+  .feature-content {
+    width: 90%;
+    display: inline-block;
+  }
+  
+  .feature-strength {
+    width: 100%;
+    display: block;
+    
+  }
+  
+  .strength {
+    margin: auto;
+  }
+  
+  .strength:not(:last-child) {
+    margin: auto;
+}
