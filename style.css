@@ -300,16 +300,34 @@ footer p {
 
 @media screen and (max-width: 425px) {
   header {
+    height: 50px;
   }
 
   .heading {
     width: 90%;
   }
 
+  header img {
+    height: 50px;
+  }
+
   .main-visual {
+    height: 650px;
+    display: inline-block;
+    background-image: url(img/code.png);
+    background-position: center center;
+
   }
 
   .main-visual-content {
+  }
+
+  p.main-visual-name {
+    font-size: 40px;
+  }
+
+  p.main-visual-text {
+    font-size: 18px;
   }
 
   .portfolio {
@@ -319,30 +337,34 @@ footer p {
     width: 90%;
     display: inline-block;
   }
-  
+
   .portfolio-content img {
     margin: auto;
     display: block;
   }
 
+  .portfolio-content img:not(:last-child) {
+  margin-bottom: 10px;
+}
+
   .feature {
   }
-  
+
   .feature-content {
     width: 90%;
     display: inline-block;
   }
-  
+
   .feature-strength {
     width: 100%;
     display: block;
-    
+
   }
-  
+
   .strength {
     margin: auto;
   }
-  
+
   .strength:not(:last-child) {
-    margin: auto;
+    margin-bottom: 30px;
 }
