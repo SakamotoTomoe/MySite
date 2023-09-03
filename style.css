@@ -355,16 +355,51 @@ footer p {
     display: inline-block;
   }
 
-  .feature-strength {
-    width: 100%;
-    display: block;
+.feature-strength {
+  display: inline-block;
+}
 
-  }
+.strength {
+  width: auto;
+  display: inline-block;
+}
 
-  .strength {
-    margin: auto;
-  }
+.strength:not(:last-child) {
+  margin: 0 0 10px 0;
+}
 
-  .strength:not(:last-child) {
-    margin-bottom: 30px;
+.profile-content {
+  width: 90%;
+}
+
+p.profile-title {
+  font-size: 32px;
+}
+
+.profile-topic-content {
+  display: inline-block;
+}
+
+.profile-img-content {
+  width: 90%;
+  height: 250px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.profile-text-content {
+  width: 90%;
+  display: inline-block;
+}
+
+p.profile-topic-title {
+  text-align: center;
+}
+
+.contact-content {
+  width: 90%;
+}
+
+.contact-list-content {
+  display: inline-block;
 }
